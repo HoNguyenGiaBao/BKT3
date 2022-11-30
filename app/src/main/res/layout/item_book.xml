@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginStart="@dimen/_10sdp"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:layout_marginEnd="@dimen/_10sdp">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/imageBook"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/bg_author"
+        />
+
+    <LinearLayout
+        android:id="@+id/layoutBookInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/textviewBookName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_21ssp"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/textviewBookDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Description"
+            android:textSize="@dimen/_12ssp"/>
+    </LinearLayout>
+</LinearLayout>
