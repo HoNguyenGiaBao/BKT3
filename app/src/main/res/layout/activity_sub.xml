@@ -24,6 +24,7 @@
             android:layout_height="wrap_content"
             android:text="Author Name"
             android:textSize="@dimen/_21ssp"
+            android:textColor="@color/black"
             />
     </LinearLayout>
 
